@@ -8,11 +8,12 @@ Python >= 3.6, PyTorch >= 1.3.1, torchvision >= 0.4.1, numpy>=1.11.2, tqdm >= 4.
 ```
 
 ## Training
-The main running file is `main.py` with arguments as follows:
+The main running file is [`main.py`](./main.py) with arguments as follows:
 * noise_type: symmetric | asymmetric
 * noise_rate: noise rate
 * loss: AGCE | AUL | AEL | CE (Cross Entropy) | FL (Focal Loss) | MAE | GCE | SCE | NFL | NCE | ...
 
+The detailed implementation about the loss can be found in [`losses.py`](./losses.py)
 
 Example for 0.4 Symmetric noise rate with AUL loss
 ```console
