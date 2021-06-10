@@ -19,7 +19,7 @@ Example for 0.4 Symmetric noise rate with AUL loss
 # CIFAR-10
 $  python3  main.py --noise_type      symmetric           \
                     --noise_rate      0.4                 \
-                    --loss            AGCE                \
+                    --loss            AUL                 \
 ```
 
 
