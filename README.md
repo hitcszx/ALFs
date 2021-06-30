@@ -29,8 +29,8 @@ $  python3  main.py --noise_type      symmetric           \
 For technical details and full experimental results, please check the paper. If you have used our work in your own, please consider citing:
 
 ```
-@inproceedings{zhou2020asymmetric,
-  title={Normalized Loss Functions for Deep Learning with Noisy Labels},
+@inproceedings{zhou2021asymmetric,
+  title={asymmetric Loss Functions for Learning with Noisy Labels},
   author={Zhou, Xiong and Liu, Xianming and Jiang, Junjun and Xin, Gao and Xiangyang, Ji},
   booktitle={ICML},
   year={2021}
