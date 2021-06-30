@@ -30,7 +30,7 @@ For technical details and full experimental results, please check the paper. If 
 
 ```
 @inproceedings{zhou2021asymmetric,
-  title={asymmetric Loss Functions for Learning with Noisy Labels},
+  title={Asymmetric Loss Functions for Learning with Noisy Labels},
   author={Zhou, Xiong and Liu, Xianming and Jiang, Junjun and Xin, Gao and Xiangyang, Ji},
   booktitle={ICML},
   year={2021}
