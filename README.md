@@ -29,11 +29,17 @@ $  python3  main.py --noise_type      symmetric           \
 For technical details and full experimental results, please check the paper. If you have used our work in your own, please consider citing:
 
 ```
-@inproceedings{zhou2021asymmetric,
-  title={Asymmetric Loss Functions for Learning with Noisy Labels},
-  author={Zhou, Xiong and Liu, Xianming and Jiang, Junjun and Xin, Gao and Xiangyang, Ji},
-  booktitle={ICML},
-  year={2021}
+@InProceedings{zhou2021asymmetric,
+  title = 	 {Asymmetric Loss Functions for Learning with Noisy Labels},
+  author =       {Zhou, Xiong and Liu, Xianming and Jiang, Junjun and Gao, Xin and Ji, Xiangyang},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {12846--12856},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR}
 }
 ```
 Moreover, we thank the code implemented by [Ma et al.](https://github.com/HanxunH/Active-Passive-Losses).
