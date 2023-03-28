@@ -68,4 +68,4 @@ For technical details and full experimental results, please check the paper. If 
 }
 
 ```
-Moreover, we thank the code implemented by [Ma et al.](https://github.com/HanxunH/Active-Passive-Losses) (classification) and [Zhang et al.](https://github.com/cszn/DnCNN/tree/master/TrainingCodes/dncnn_pytorch) (image denoising).
+Moreover, we thank the code implemented by [Ma et al.](https://github.com/HanxunH/Active-Passive-Losses) (classification) and [Zhang et al.](https://github.com/cszn/DnCNN/tree/master/TrainingCodes/dncnn_pytorch) (DnCNN).
