@@ -167,7 +167,7 @@ if __name__ == '__main__':
 
         tf_writer.add_scalar('loss/train', epoch_loss / n_count / batch_size, epoch)
 
-        log('epcoh = %4d , loss = %4.6f , time = %4.2f s' % (epoch + 1, epoch_loss / n_count / batch_size, elapsed_time))
+        log('epoch = %4d , loss = %4.6f , time = %4.2f s' % (epoch + 1, epoch_loss / n_count / batch_size, elapsed_time))
         filename = os.path.join(save_dir, 'model_current.pth.tar')
         torch.save(model, filename)
         gc.collect()
